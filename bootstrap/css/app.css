@@ -1,3 +1,7 @@
 .rad{
     border-radius:50px;
+    
+}
+.trans{
+    transform: translateY(-20%);
 }
