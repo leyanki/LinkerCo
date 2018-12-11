@@ -11,13 +11,13 @@
     </head>
     <body>
         <!-- that is the navbar part     -->
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <nav class="navbar navbar-expand-lg shadow-sm ">
             <div class="container">
-                <a class="navbar-brand">Linker.co</a>
+                <a class="navbar-brand" href="#">Linker.co</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end p-2" id="menu">
+                <div class="collapse navbar-collapse justify-content-end p-2 " id="menu">
                     <ul class="navbar-nav nav">
                         <li class="nav-item">
                             <a href="#" class="nav-link">Find job</a>
@@ -32,113 +32,244 @@
                             <a href="#" class="nav-link">About</a>
                         </li>
                         <li>
-                            <a href="#" class="btn btn-info rad">login</a>
+                            <a href="#" class="btn bg-blue px-5 rad">login</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!--page's content -->
-        <div class="container-fluid">
-            <div class="container">
+        
+            <div class="container mt-3">
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <h2>We are the most trusted job linker in the world</h2>
                         <p mt-4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapient adipisicing elit. Sapient adipisicing elit. Sapient.</p>    
-
-                        <div class="input-group ">
-                            <input type="search" placeholder="lorem ipsum dolor sit amet" name="search" class="form-control rad"/>
-                            <div class="input-group-prepend">
-                                <span class=" rad p-1">@</span>    
+                        <form>
+                            <div class="input-group w-75">
+                                <input type="search" placeholder="lorem ipsum dolor sit amet" name="search" class="w-75 form-control rad"/>
+                                <div class="input-group-prepend">
+                                    <button type="submit d-inline-block rad" class="btn bg-blue"><span class="glyphicon glyphicon-search bg-blue">@</span></button>
+                                </div>
                             </div>
-                        </div>
                         </form>
                     </div>
-                    <img class="col-md-6" src="images/undraw_interview_rmcf (1).svg"/>
+                    <img class="col-md-6 h-75" src="images/undraw_interview_rmcf (1).svg"/>
                 </div>
             </div>
-        </div>
+        
         <!--  this part is partener's part-->
-        <div class="container-fluid bg-primary p-5">
+        <div class="container-fluid bg-blue p-5">
             <div class="invisible"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quod voluptas, maxime ipsam quae, magnam eum, nostrum quidem magni cumque architecto. Debitis a atque reiciendis odit obcaecati facere doloremque eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sint? Harum molestias maiores sapiente iste. Sunt et incidunt quod nostrum at assumenda unde, consequuntur dolor modi dolorem mollitia, placeat sapiente!</div>
         </div>
-        <div class="container mx-auto w-75  trans bg-white">
-                <h4 class="text-center p-3 mb-3 text-primary">Our daily job</h4>
-                <div class="row">
-                    <a class="col-md-4 card" href="#">
-                        <img class="card-img-top" src="images/mango-2.svg"/>
+        <div class="container mx-auto w-75  p-5 trans bg-white shadow-sm rad-sm">
+                <h6 class="text-center p-3 mb-2 text-primary text-bold">Trusted by</h6>
+                <div class="row  card-deck">
+                    <a class="col-md-4  card p2 align-self-center rad-sm partner border-0" href="#">
+                        <img class="card-img-top mx-auto  w-50 h-25" src="images/mango-2.svg"/>
                     </a>
-                    <a class="col-md-4 card" href="#">
-                        <img class="card-img-top" src="images/myweb.svg"/>
+                    <a class="col-md-4 card p2  rad-sm  partner border-0" href="#">
+                        <img class="card-img-top mx-auto  w-50 h-25" src="images/myweb.svg"/>
                     </a>
-                    <a class="col-md-4 card" href="#">
-                        <img class="card-img-top" src="images/google-2015.svg"/>
+                    <a class="col-md-4 card p5  rad-sm align-self-center partner border-0" href="#">
+                        <img class="card-img-top mx-auto  w-50 h-25" src="images/google-2015.svg"/>
                     </a>
                 </div>
-                <div class="row">
-                    <a class="col-md-4 card" href="#">
-                        <img class="card-img-top ali" src="images/gitanes-jazz.svg"/>
+                <div class="row card-deck  mt-3">
+                    <a class="col-md-4  card card p2  rad-sm    partner border-0" href="#">
+                        <img class="card-img-top mx-auto  w-50 h-25 " src="images/gitanes-jazz.svg"/>
                     </a>
-                    <a class="col-md-4 card" href="#">
-                       <img class="card-img-top" src="images/nike-3.svg"/>
+                    <a class="col-md-4 p2  rad-sm   partner border-0 card " href="#">
+                       <img class="card-img-top mx-auto  w-50 h-25" src="images/nike-3.svg"/>
                     </a>
-                    <a class="col-md-4 card" href="#">
-                        <img class="card-img-top" src="images/mango-4.svg"/>
+                    <a class="col-md-4  p2  rad-sm  partner border-0 card" href="#">
+                        <img class="card-img-top mx-auto  w-50 h-25" src="images/mango-4.svg"/>
                     </a>
             </div>
         </div>
         <!-- slider part-->
         <div class="container-fluid">
             <h6 class="text-center  mb-3 text-primary">Our daily job</h6>
+            <div class="carousel slide" data-ride="carousel" id="myJobCarousel">
+               <div class=" container carousel-inner">
+                    <div class="row row-equal carousel-item active">
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+         
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+         
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+                    </div> 
+                    <div class="row row-equal carousel-item">
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+         
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+         
+                            <div class="col-md-4 p-5">
+                                 <div class="card shadow-sm">
+                                     <img class="img-responsive card-img-top" src="images/photo_2018-12-06_10-21-42.jpg">
+                                     <div class="card-header px-0 clearfix bg-white border-0">
+                                         <span class="ml-3">By</span>
+                                         <img class="card-img-top mx-auto w-25 ml-3"height="auto" src="images/google-2015.svg"/>
+                                         <span class="btn btn-danger text-right  border-right-0 rad float-right"><small>$100000-150000</small></span>
+                                     </div>
+                                     <div class="card-body">
+                                         <h6>Ux desiner</h6>
+                                         <p class="small w-75"> 
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Desate!
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <div class="text-center trans-md" >
+                                     <a class="btn btn-light shadow-sm">take a glance  </a>
+                                 </div>
+                            </div>
+                    </div> 
+               </div>
+               <a class="carousel-control-prev" href="#myJobCarousel" role="button" data-slide="prev"> 
+                   <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <a class="carousel-control-next" href="#myJobCarousel" data-slide="next" role="button">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
         <hr/>
         <!--  this is the bloc search & filter-->
         <div class="container">
-            <div class="row mb-5 p-4">
-                    <img class="col-md-6 h-50" src="images/undraw_search_2dfv.svg"/>
-                <div class="col-md-6 align-self-center">
-                    <h6 class="mb-3">Search & filter</h6>
-                    <h4 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste sin</h4>
-                    <p class="text-justified pt-2">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dicta accusantium iure iste repellendus, neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
-                    </p>
-                </div>
-                
-
-            </div>
             <div class="row mb-5 p-4 ">
-                
-                <div class="col-md-6 align-self-center ">
+               <div class="col-md-6 "><img class="w-65 h-50" src="images/undraw_search_2dfv.svg"/></div>
+                <div class="col-md-6  align-self-center">
                     <h6 class="mb-3">Search & filter</h6>
                     <h4 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste sin</h4>
                     <p class="text-justified pt-2">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dicta accusantium iure iste repellendus, neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
+                        neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
                     </p>
                 </div>
-                <img class="col-md-6  h-50" src="images/undraw_authentication_fsn5.svg"/>
+            </div>
+            <div class="row mb-5 p-4 ">  
+                    <div class="col-md-6  align-self-center">
+                            <h6 class="mb-3">Search & filter</h6>
+                            <h4 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste sin</h4>
+                            <p class="text-justified pt-2">
+                                neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
+                            </p>
+                        </div>
+                <div class="col-md-6 "><img class="h-50 w-75" src="images/undraw_authentication_fsn5.svg"/></div>
             </div>
             <div class="row mb-5 p-4">
-                    <img class="col-md-6 h-50" src="images/undraw_visual_data_b1wx.svg "/>
-                <div class="col-md-6 align-self-center">
-                    <h6 class="mb-3">Search & filter</h6>
-                    <h4 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste sin</h4>
-                    <p class="text-justified pt-2">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dicta accusantium iure iste repellendus, neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
-                    </p>
-                </div>   
+                <div class="col-md-6"><img class="h-50 w-75" src="images/undraw_visual_data_b1wx.svg "/></div> 
+                <div class="col-md-6  align-self-center">
+                        <h6 class="mb-3">Search & filter</h6>
+                        <h4 class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste sin</h4>
+                        <p class="text-justified pt-2">
+                            neque sit aut et placeat iusto, ex doloremque deserunt laboriosam quidem quibusdam consequatur labore, reprehenderit eaque?
+                        </p>
+                    </div>  
             </div>
         </div>
         <!--  this is the footer block-->
-        <div class="container-fluid bg-primary p-5">
+        <div class="container-fluid bg-blue p-5">
             <div class="container">
                 <h4 class="mt-5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit reprehenderit vitae ipsum facilis , quia officia iste tempora et!</h4>
                 <h6 class="mt-4 text-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dicta accusant</h6>
-                <a class="btn btn-light text-center rad mt-5">Create my account</a>
+               <div class="text-center text-blue mt-4"><a class="btn btn-light  rad px-5"><span class="small ">create my account</span></a></div> 
             </div>
         </div>
         <div class="container mt-5">
             <div class="row mb-5">
-                <ul class=" nav flex-column text-center col-lg-3  ">
+                <ul class=" nav flex-column text-center  justify-content-center col-lg-3  ">
                         <li class="nav-item nav-link"><h6>Product</h6></li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">accounting</a>
@@ -153,7 +284,7 @@
                         <a href="#" class="nav-link">hosting</a>
                     </li>
                 </ul>
-                 <ul class=" nav flex-column text-center col-lg-3   ">
+                 <ul class=" nav flex-column text-center  col-lg-3   ">
                     <li class="nav-item nav-link"><h6>Product</h6></li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">accounting</a>
@@ -183,7 +314,7 @@
                        <a href="#" class="nav-link">hosting</a>
                    </li>
                </ul>
-                <ul class=" nav flex-column text-center col-lg-3  ">
+                <ul class=" nav flex-column text-center  col-lg-3  ">
                     <li class="nav-item nav-link"><h6>Product</h6></li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">accounting</a>
@@ -199,7 +330,7 @@
                     </li>
                 </ul>
             </div>
-            <p class="text-center pt-4 mb-5">©copyright,tout droit reserve</p>
+            <p class=" text-center pt-4 mb-5">©copyright,tout droit reserve</p>
         </div>
        
         
@@ -214,5 +345,19 @@
         <script src="bootstrap/js/jquery.slim.min.js"></script>
         <script src="bootstrap/js/popper.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+           ( function(){
+                var card=document.getElementsByClassName("partner");
+                for(var i=0; i<card.length;i++){
+                    card[i].onmouseover=function(){
+                        this.className+=" shadow-sm";
+                    }
+                    card[i].onmouseout=function(){
+                           this.className= this.className.replace("shadow-sm"," ");
+                    }
+                    
+                }
+            })();
+        </script>
     </body>
 </html>
