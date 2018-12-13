@@ -3,9 +3,9 @@ body{
     font-family:'Poppins',sans-serif ;
     color:#063cd1;
 }
-{
+/* {
     color:#063cd1; 
-}
+} */
 .bg-blue{
     background-color:#063cd1;
     color:white;
@@ -30,7 +30,9 @@ p{
 }
 .rad{
     border-radius:50px;   
+
 }
+.border[]
 .rad-sm{
     border-radius: 25px;
 }
